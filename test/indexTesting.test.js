@@ -1,4 +1,4 @@
-const stringUtils = require('./src/stringUtils.js');
+const stringUtils = require('../src/stringUtils.js');
 
 describe('stringUtils', () => {
     describe('reverse', () => {
