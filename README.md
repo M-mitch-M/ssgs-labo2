@@ -23,6 +23,38 @@ Buona analisi e buon lavoro!
 
 ## Installazione e Avvio
 
+### Configurazione Iniziale
+
+Per poter eseguire il programma:
+
+Assicurati di avere installato **Node.js** versione `>=22.14.0`. Puoi verificare la versione di Node.js installata sul tuo sistema con il comando:
+
+```bash
+node -v
+```
+1. Clona il repository:
+    ```bash
+    git clone https://github.com/M-mitch-M/ssgs-labo2.git
+    ```
+2. Accedi alla directory del progetto:
+    ```bash
+    cd ssgs-labo2
+    ```
+3. Installa le dipendenze:
+    ```bash
+    npm ci
+    ```
+
+per eseguire il programma:
+```bash
+node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]
+```
+dove
+1. Inverti Stringa (reverseString)
+2. Controlla Palindromo (isPalindrome)
+3. Tronca Stringa (truncateString) - richiede [lunghezza_massima]
+4. Conta Caratteri (countCharacters)
+
 *(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
 
 ---
