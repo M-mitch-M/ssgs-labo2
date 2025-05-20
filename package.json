@@ -4,7 +4,7 @@
   "description": "programma in node.js che esegue alcune operazioni su stringhe (conteggio caratteri, reversing, troncamento e verfica di palindromi)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "keywords": [
     "string, strings, string manipulation, string operations"
