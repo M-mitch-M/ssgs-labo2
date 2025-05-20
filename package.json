@@ -4,9 +4,11 @@
   "description": "programma in node.js che esegue alcune operazioni su stringhe (conteggio caratteri, reversing, troncamento e verfica di palindromi)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
-  "keywords": ["string, strings, string manipulation, string operations"],
+  "keywords": [
+    "string, strings, string manipulation, string operations"
+  ],
   "author": "Mattia Moretti (M-mitch-M)",
   "license": "ISC",
   "engines": {
@@ -16,5 +18,8 @@
     "type": "git",
     "url": "https://github.com/M-mitch-M/ssgs-labo2.git"
   },
-  "homepage": "https://github.com/M-mitch-M/ssgs-labo2"
+  "homepage": "https://github.com/M-mitch-M/ssgs-labo2",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
