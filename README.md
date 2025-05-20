@@ -72,9 +72,12 @@ Jest deve essere configurato nel file `package.json`
     ```
 3. Il report di coverage sarà generato nella directory `coverage/`.
 
+## GitHub Actions
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+Questo progetto utilizza **GitHub Actions** per eseguire i test automaticamente ad ogni push o pull request sul ramo *main*. La configurazione del workflow si trova nel file `.github/workflows/automatic-testing.yml` e può anche essere azionato manualmente nella sezione **Actions** visto che utilizza la configurazione *workflow_dispatch*.
 
----
-
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+Il workflow gestisce le dipendenze che si trovano nel file *package.json* e *package-lock.json* utilizzando il comando 
+```bash
+    npm ci
+```
+e dopo aver runnato i test fornisce anche il report di coverage
