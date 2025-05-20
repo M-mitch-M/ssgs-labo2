@@ -1,12 +1,20 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "programma in node.js che esegue alcune operazioni su stringhe (conteggio caratteri, reversing, troncamento e verfica di palindromi)",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["string, strings, string manipulation, string operations"],
+  "author": "Mattia Moretti (M-mitch-M)",
+  "license": "ISC",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M-mitch-M/ssgs-labo2.git"
+  },
+  "homepage": "https://github.com/M-mitch-M/ssgs-labo2"
 }
